@@ -23,6 +23,10 @@ if (condition) {
   // code to be executed if condition is true
 }
 */
+$t = date("H");
+if($t < 12) {
+  // echo 'Good Morning';
+}
 
 /* -------- Ternary Operator -------- */
 /*
@@ -30,6 +34,10 @@ if (condition) {
   Ternary Syntax:
     condition ? true : false;
 */
+// $posts = ["first post"];
+// echo !empty($posts) ? $posts[0] : 'No Posts';
+
+echo $posts[0] ?? 'No Posts';
 
 
 /* -------- Switch Statements ------- */

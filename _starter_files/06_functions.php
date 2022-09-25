@@ -12,3 +12,21 @@
     // code to be executed
   }
 */
+// $x = 10;
+// function registerUser($email) {
+//   echo $email.' registered';
+// }
+
+// registerUser('aatmik');
+
+function sum($n1 = 4, $n2 = 5) {
+  return $n1 + $n2;
+}
+
+echo sum();
+
+echo '<br>';
+
+$substract = fn($n1, $n2) => $n1 - $n2;
+
+echo $substract(5, 4);

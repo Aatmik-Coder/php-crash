@@ -11,6 +11,10 @@
   }
 */
 
+for($x = 0; $x < 10; $x++) {
+  // echo $x . '<br>';
+}
+
 
 /* ------------ While Loop ------------ */
 
@@ -20,7 +24,12 @@
   // code to be executed
   }
 */
-
+$a = 1;
+while ($a <= 10) {
+  # code...
+  echo $a.'<br>';
+  $a++;
+}
 
 /* ---------- Do While Loop --------- */
 
@@ -32,7 +41,12 @@
 
 do...while loop will always execute the block of code once, even if the condition is false.
 */
+$x = 1;
 
+do{
+  echo 'Number '. $x.'<br>';
+  $x++;
+}while($x <= 5);
 
 
 /* ---------- Foreach Loop ---------- */
@@ -43,3 +57,7 @@ do...while loop will always execute the block of code once, even if the conditio
   // code to be executed
   }
 */
+$x = ['adf', 'dfasd', 'fasd'];
+foreach($x as $index => $xx) {
+  echo $index.' ';
+}
