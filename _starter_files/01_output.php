@@ -16,6 +16,6 @@
     <title>Document</title>
   </head>
   <body>
-    <h1><?php echo 123; ?></h1>  
+    <h1><?php echo "this is my first core php code"; ?></h1>  
   </body>
 </html>
